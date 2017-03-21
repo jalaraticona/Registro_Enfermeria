@@ -75,10 +75,10 @@
 				<h1 id="logo"><a href="http://enfermeria.fment.umsa.bo/">Enfermeria</a></h1>
 				<nav id="nav">
 					<ul>
-						<li class="current"><a href="registro.html">Registrar Inscripciones</a></li>
-						<li><a href="operaciones.html">Operaciones</a></li>
-						<li><a href="horarios.html">Horarios</a></li>
-						<li><a href="reportes.html">Reportes</a></li>
+						<li class="current"><a href="registrooo.php">Registrar Inscripciones</a></li>
+						<li><a href="operaciones.php">Operaciones</a></li>
+						<li><a href="horarios.php">Horarios</a></li>
+						<li><a href="reportes.php">Reportes</a></li>
 					</ul>
 				</nav>
 				<section class="box search">
