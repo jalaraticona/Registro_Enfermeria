@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/main.css" />
 	<title>..:: Horarios ::..</title>
 </head>
 <body>
@@ -23,11 +24,5 @@
 			Desarrollar aun
 		</p>
 	</div>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/reloj.js"></script>
 </body>
 </html>
