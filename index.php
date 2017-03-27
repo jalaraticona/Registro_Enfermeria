@@ -14,8 +14,8 @@
 			font-family: verdana;
 			margin-top: 70px;
 			margin-bottom: 100px;
-			margin-left: 400px;
-			margin-right: 400px;
+			margin-left: 300px;
+			margin-right: 300px;
 			text-align: center;
 		}
 	</style>
