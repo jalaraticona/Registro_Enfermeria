@@ -30,8 +30,34 @@
 			</style>
 		</head>
 		<body>
-		<h1 align="center">INFORMACION LABORAL</h1><br>
-		<h3>Usuario: <?php echo $row[1]." ".$row[2]." ".$row[3]." C.I.: ".$row[5]; ?></h3>
+		<fieldset>
+			<legend class="texto">INFORMACION ACADEMICA</legend>
+			<table cellspacing="3" cellpadding="2" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td width="10%">
+							<center><img src="img/umsa.png" width="100" height="100"></center>
+						</td>
+						<td width="70%">
+							<font class="labels"><b>Usuario: </b></font><font class="labelsData">
+							LARA TICONA JORGE ABIMAEL&nbsp;&nbsp;&nbsp;</font><br>
+							<b>Unidad:</b></font>CARRERA DE ENFERMERIA&nbsp;&nbsp;&nbsp;</font>
+							<font class="labels"><b>Predio: </b></font><font class="labelsData">MEDICINA</font>
+						</td>
+						<td width="10%">
+							<font class="labels">
+							<center><a href="logout.php" class="navText"><button class="btn btn-primary">Cerrar Session</button></a></center>
+							</font>
+						</td>
+						<td width="10%">
+							<center><img src="img/enfermeria.png" width="60" height="100"></center>
+						</td>
+					</tr>
+				</tbody>
+			</table> 
+		</fieldset>
+		<br>
+		<h3><strong>Informacion académica de:</strong> <?php echo $row[1]." ".$row[2]." ".$row[3]." <br> C.I.: ".$row[5]; ?></h3>
 		<?php 
 		$sql = "select * from inf_laboral where cod_persona = '".$_GET["id"]."'";
 		$res = mysql_db_query($bd,$sql,$con);

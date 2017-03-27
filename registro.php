@@ -12,10 +12,10 @@
 		body{
 			background-color: #C5A9A9;
 			font-family: verdana;
-			margin-top: 50px;
+			margin-top: 20px;
 			margin-left: 400px;
 			margin-right: 400px;
-			margin-bottom: 80px;
+			margin-bottom: 20px;
 		}
 		h1,h2,h3,h4,h5,h6{
 			font-family: calibri;
@@ -23,7 +23,25 @@
 	</style>
 </head>
 <body>
-<h2 align="center"><strong>REGISTRO DE USUARIO</strong></h2>
+<fieldset>
+	<center><legend class="texto"><b>REGISTRO DE USUARIO</b></legend></center>
+	<table cellspacing="3" cellpadding="2" border="0" width="100%">
+		<tbody>
+			<tr>
+				<td width="10%">
+					<center><img src="img/umsa.png" width="100" height="100"></center>
+				</td>
+				<td width="80%">
+					<b>Unidad:</b></font>CARRERA DE ENFERMERIA</font><br>
+					<font class="labels"><b>Predio: </b></font><font class="labelsData">MEDICINA</font>
+				</td>
+				<td width="10%">
+					<center><img src="img/enfermeria.png" width="60" height="100"></center>
+				</td>
+			</tr>
+		</tbody>
+	</table> 
+</fieldset>
 <br>
 <h4 align="center">Favor de llenar los datos de usuario todo con minusculas</h4><br>
 	<form action="registrar.php" method="post" accept-charset="utf-8">

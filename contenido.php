@@ -15,10 +15,10 @@
 					body{
 						background-color: #C5A9A9;
 						font-family: verdana;
-						margin-top: 80px;
-						margin-left: 200px;
-						margin-right: 200px;
-						margin-bottom: 80px;
+						margin-top: 20px;
+						margin-left: 100px;
+						margin-right: 100px;
+						margin-bottom: 20px;
 					}
 					h1,h2,h3,h4,h5,h6{
 						font-family: calibri;
@@ -26,7 +26,33 @@
 				</style>
 			</head>
 			<body>
-			<h1 align="center">INFORMACION PERSONAL</h1>
+			<fieldset>
+				<center><legend class="texto"><b>INFORMACION PERSONAL</b></legend></center>
+				<table cellspacing="3" cellpadding="2" border="0" width="100%">
+					<tbody>
+						<tr>
+							<td width="10%">
+								<center><img src="img/umsa.png" width="100" height="100"></center>
+							</td>
+							<td width="70%">
+								<font class="labels"><b>Usuario: </b></font><font class="labelsData">
+								LARA TICONA JORGE ABIMAEL&nbsp;&nbsp;&nbsp;</font><br>
+								<b>Unidad:</b></font>CARRERA DE ENFERMERIA&nbsp;&nbsp;&nbsp;</font>
+								<font class="labels"><b>Predio: </b></font><font class="labelsData">MEDICINA</font>
+							</td>
+							<td width="10%">
+								<font class="labels">
+								<center><a href="logout.php" class="navText"><button class="btn btn-primary">Cerrar Session</button></a></center>
+								</font>
+							</td>
+							<td width="10%">
+								<center><img src="img/enfermeria.png" width="60" height="100"></center>
+							</td>
+						</tr>
+					</tbody>
+				</table> 
+			</fieldset>
+			<br>
 			<table class="table table-bordered">
 				<tbody>
 					<tr class="warning">
@@ -69,7 +95,6 @@
 					?>	
 				</tbody>
 			</table>
-			<a href='logout.php'><button class="btn-sm btn-primary">Cerrar Sesion</button></a>
 			</body>
 			</html>
 			<?php
@@ -80,17 +105,17 @@
 			<html lang="en">
 			<head>
 				<meta charset="UTF-8">
-				<title>..:: EFNERMERIA ::..</title>
+				<title>..:: ENFERMERIA ::..</title>
 				<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 				<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
 				<style type="text/css" media="screen">
 					body{
 						background-color: #C5A9A9;
 						font-family: verdana;
-						margin-top: 80px;
-						margin-left: 200px;
-						margin-right: 200px;
-						margin-bottom: 80px;
+						margin-top: 20px;
+						margin-left: 100px;
+						margin-right: 100px;
+						margin-bottom: 20px;
 					}
 					h1,h2,h3,h4,h5,h6{
 						font-family: calibri;
@@ -98,7 +123,33 @@
 				</style>
 			</head>
 			<body>
-			<h1 align="center">INFORMACION PERSONAL</h1><br>
+			<fieldset>
+				<center><legend class="texto"><b>INFORMACION PERSONAL</b></legend></center>
+				<table cellspacing="3" cellpadding="2" border="0" width="100%">
+					<tbody>
+						<tr>
+							<td width="10%">
+								<center><img src="img/umsa.png" width="100" height="100"></center>
+							</td>
+							<td width="70%">
+								<font class="labels"><b>Usuario: </b></font><font class="labelsData">
+								LARA TICONA JORGE ABIMAEL&nbsp;&nbsp;&nbsp;</font><br>
+								<b>Unidad:</b></font>CARRERA DE ENFERMERIA&nbsp;&nbsp;&nbsp;</font>
+								<font class="labels"><b>Predio: </b></font><font class="labelsData">MEDICINA</font>
+							</td>
+							<td width="10%">
+								<font class="labels">
+								<center><a href="logout.php" class="navText"><button class="btn btn-primary">Cerrar Session</button></a></center>
+								</font>
+							</td>
+							<td width="10%">
+								<center><img src="img/enfermeria.png" width="60" height="100"></center>
+							</td>
+						</tr>
+					</tbody>
+				</table> 
+			</fieldset>
+			<br>
 			<table class="table table-bordered">
 				<tbody>
 					<tr class="warning">
@@ -141,7 +192,6 @@
 					?>	
 				</tbody>
 			</table>
-			<a href='logout.php'><button class="btn-sm btn-primary">Cerrar Sesion</button></a>
 			</body>
 			</html>
 			<?php
