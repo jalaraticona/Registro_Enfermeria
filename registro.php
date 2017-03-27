@@ -8,17 +8,13 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/main.css" />
 	<style type="text/css" media="screen">
-		body{
-			background-color: #C5A9A9;
-			font-family: verdana;
+		.div{
 			margin-top: 20px;
 			margin-left: 400px;
 			margin-right: 400px;
 			margin-bottom: 20px;
-		}
-		h1,h2,h3,h4,h5,h6{
-			font-family: calibri;
 		}
 	</style>
 </head>
@@ -43,11 +39,12 @@
 	</table> 
 </fieldset>
 <br>
-<h4 align="center">Favor de llenar los datos de usuario todo con minusculas</h4><br>
+<div class="div">
+	<h4 align="center">Favor de llenar los datos de usuario todo con minusculas</h4><br>
 	<form action="registrar.php" method="post" accept-charset="utf-8">
 		<div class="form-group">
 			<label>Nombres</label>
-			<input type="text" class="form-control" name="nombre" placeholder="Ingrese sus nombres">
+			<input type="text" class="form-control" name="nombre" placeholder="Ingrese sus nombres" spellcheck="true">
 		</div>
 		<div class="form-group">
 			<label>Apellido Paterno</label>
@@ -69,7 +66,7 @@
 			<div class="input-group">
 				<input type="number" class="form-control" name="carnet" placeholder="12345678">
 				<div class="input-group-addon">
-					<select name="dir" >
+					<select name="dir">
 						<option selected>L.P.</option>
 						<option>C.B.</option>
 						<option>O.R.</option>
@@ -102,5 +99,6 @@
 			<input type="submit" value="Enviar" class="btn btn-primary">
 		</div>
 	</form>
+</div>
 </body>
 </html>
