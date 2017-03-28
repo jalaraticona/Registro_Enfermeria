@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	require_once("conexion.php");
-	if($_SESSION["usuario"]){
+	if($_SESSION["usuario"] && verificaUsuario($bd,$con)){
 		if(isset($_POST["buscar"])){
 		?>
 			<!DOCTYPE html>

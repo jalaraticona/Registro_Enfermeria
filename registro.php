@@ -16,6 +16,16 @@
 			margin-right: 400px;
 			margin-bottom: 20px;
 		}
+		input:required:invalid {
+			background: #fff url(img/invalid.png) no-repeat 99% center;
+		    box-shadow: 0 0 5px #d45252;
+		    border-color: #b03535
+		}
+		input:required:valid {
+			background: #fff url(img/valid.png) no-repeat 99% center;
+		    box-shadow: 0 0 5px #5cd053;
+		    border-color: #28921f;
+		}
 	</style>
 </head>
 <body>
@@ -44,27 +54,27 @@
 	<form action="registrar.php" method="post" accept-charset="utf-8">
 		<div class="form-group">
 			<label>Nombres</label>
-			<input type="text" class="form-control" name="nombre" placeholder="Ingrese sus nombres" spellcheck="true">
+			<input type="text" class="form-control" name="nombre" placeholder="Ingrese sus nombres" spellcheck="true" required>
 		</div>
 		<div class="form-group">
 			<label>Apellido Paterno</label>
-			<input type="text" class="form-control" name="paterno" placeholder="Ingrese apellido paterno">
+			<input type="text" class="form-control" name="paterno" placeholder="Ingrese apellido paterno" required>
 		</div>
 		<div class="form-group">
 			<label>Apellido Materno</label>
-			<input type="text" class="form-control" name="materno" placeholder="Ingrese apellido materno">
+			<input type="text" class="form-control" name="materno" placeholder="Ingrese apellido materno" required>
 		</div>
 		<div class="form-group">
 			<label>Edad</label>
 			<div class="input-group">
-				<input type="number" class="form-control" name="edad" placeholder="25">
+				<input type="number" class="form-control" name="edad" placeholder="25" maxlength="3" required>
 				<div class="input-group-addon">años</div>
 			</div>
 		</div>
 		<div class="form-group">
 			<label>Nro. de carnet de identidad</label>
 			<div class="input-group">
-				<input type="number" class="form-control" name="carnet" placeholder="12345678">
+				<input type="number" class="form-control" name="carnet" placeholder="12345678" minlength="5" maxlength="15" required>
 				<div class="input-group-addon">
 					<select name="dir">
 						<option selected>L.P.</option>
@@ -82,18 +92,18 @@
 		</div>
 		<div class="form-group">
 			<label>Sexo</label>
-			<select name="sexo" class="form-control">
-				<option value="masculino">Masculino</option>
+			<select name="sexo" class="form-control" required>
+				<option value="masculino" selected>Masculino</option>
 				<option value="femenino">Femenino</option>
 			</select>
 		</div>
 		<div class="form-group">
 			<label>Telefono</label>
-			<input type="number" class="form-control" name="telefono" placeholder="71595955">
+			<input type="number" class="form-control" name="telefono" placeholder="71595955" minlength="7" maxlength="10" required>
 		</div>
 		<div class="form-group">
 			<label>Correo electronico</label>
-			<input type="email" class="form-control" name="correo" placeholder="usuario@ejemplo.com">
+			<input type="email" class="form-control" name="correo" placeholder="usuario@ejemplo.com" required>
 		</div>
 		<div class="form-group">
 			<input type="submit" value="Enviar" class="btn btn-primary">
